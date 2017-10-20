@@ -1,0 +1,109 @@
+html, body {
+/*    -webkit-font-smoothing: antialiased;*/
+    margin: 0; 
+    padding: 0;
+    
+}
+
+body {
+    background: #fff;
+    color: #5A5C5E;
+    font-family: -apple-system, Roboto, BlinkMacSystemFont, “Segoe UI”, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+/*    padding: 0 2em 2em;*/
+    margin: 0 auto;
+/*    border: 1px solid #f00;*/
+    width: calc(100% - 4em);
+}
+
+.button {
+    margin-top: 2em;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 ul {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+a {
+    color: #E3008C;
+}
+
+.caption p {
+    font-size: .8125em;
+    font-weight: 700;
+}
+
+.caption img {
+    margin-top: .5em;
+    margin-bottom: 2em;
+    border-style: solid;
+    border-width: thin;
+    border-color: #DDDFE4;
+    max-width: 100%;
+}
+
+.pb2 {
+    padding-bottom: 2em;
+}
+
+.pt2 {
+    padding-top: 2em;
+}
+
+
+.pt4 {
+    padding-top: 4em;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8125em;
+    letter-spacing: 1px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin: 0;
+    border-bottom: 1px solid hotpink;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+li a {
+    
+    display: block;
+    color: #5A5C5E;
+    padding: 16px 0px;
+    text-decoration: none;
+    border-bottom: 1px solid hotpink;
+}
+
+h5:last-of-type, .dotted li a {
+    border-bottom: 1px dashed hotpink;
+}
+
+/* Change the link color on hover for list items */
+li a:hover {
+    color: deeppink;
+    background-color: #F8FCFF;
+}
+
