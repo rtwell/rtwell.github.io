@@ -94,6 +94,22 @@ ul {
     background-color: #fff;
 }
 
+
+
+span .brendan { font-style: bold; }
+
+<span class='brendan'>...</span>
+
+<span>
+    <p class='brendan'>yes!</p>
+</span>
+
+<ul class='brendan'>
+    <li>a</li>
+    <li><span>hey!</span></li>
+    <li>c</li>
+</ul>
+
 li a {
     
     display: block;
@@ -113,3 +129,13 @@ li a:hover {
     background-color: #F8FCFF;
 }
 
+
+@media (max-width: 500px) {
+  body { background-color: red; }
+  p { font-size: 60px; }
+}
+
+@media (min-width: 800px) {
+  body { background-color: blue; }
+  p { font-size: 6px; }
+}
