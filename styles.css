@@ -40,9 +40,19 @@ h1, h2, h3, h4, h5, h6 ul {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 400;
 }
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+
 
 a {
     color: #E3008C;
@@ -51,6 +61,11 @@ a {
 .caption p {
     font-size: .8125em;
     font-weight: 700;
+}
+
+p.intro {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .caption img {
