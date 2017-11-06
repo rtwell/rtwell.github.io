@@ -1,8 +1,8 @@
 html, body {
     -webkit-font-smoothing: antialiased;
-    margin: 0; 
+    margin: 0;
     padding: 0;
-    
+
 }
 
 html {
@@ -95,23 +95,8 @@ ul {
 }
 
 
-
-span .brendan { font-style: bold; }
-
-<span class='brendan'>...</span>
-
-<span>
-    <p class='brendan'>yes!</p>
-</span>
-
-<ul class='brendan'>
-    <li>a</li>
-    <li><span>hey!</span></li>
-    <li>c</li>
-</ul>
-
 li a {
-    
+
     display: block;
     color: #5A5C5E;
     padding: 16px 0px;
@@ -128,5 +113,3 @@ li a:hover {
     color: deeppink;
     background-color: #F8FCFF;
 }
-
-
