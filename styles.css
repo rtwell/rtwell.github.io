@@ -128,3 +128,12 @@ li a:hover {
     color: deeppink;
     background-color: #F8FCFF;
 }
+
+
+/* Resume styles */
+
+.heading {
+  font-size: 1.25em;
+  padding-bottom: 0;
+
+}
