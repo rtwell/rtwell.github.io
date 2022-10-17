@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6 ul {
 h1 {
     font-size: 3em;
     font-weight: 700;
+    line-height: 1.15em;
 }
 
 h2 {
