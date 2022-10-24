@@ -31,17 +31,12 @@ body {
 }
 
 .button {
-    margin-top: 2em;
-    display: block;
+
 }
 
-h1, h2, h3, h4, h5, h6 ul {
-    font-weight: 400;
-}
 
 h1 {
     font-size: 3em;
-    font-weight: 700;
     line-height: 1.15em;
 }
 
@@ -50,7 +45,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 
@@ -79,6 +76,14 @@ p.intro {
 }
 
 
+.pb-sm {
+    padding-bottom: .5em;
+}
+
+.pb1 {
+    padding-bottom: 1em;
+}
+
 .pb2 {
     padding-bottom: 2em;
 }
@@ -92,22 +97,21 @@ p.intro {
     padding-top: 4em;
 }
 
+.pr1 {
+    padding-right: 1em;
+}
+
 h2 {
     font-weight: 700;
-    padding-top: 2em;
-    padding-bottom: 1em;
+    padding-top: .3em;
     margin: 0;
+}
+
+.h2-rule {
     border-bottom: 1px solid hotpink;
-}
-
-.h2-simple {
-    font-weight: 700;
-    padding-top: 1em;
-    padding-bottom: 0em;
-    margin: 0;
-    border-bottom: 0px solid hotpink;
 
 }
+
 
 ul {
     list-style-type: none;
@@ -145,4 +149,40 @@ li a:hover {
   font-size: 1.25em;
   padding-bottom: 0;
 
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 50%;
+}
+
+.column:first-child {
+   margin-right: 2em;
+}
+
+.back-link {
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  margin-top: 2em;
+}
+
+.back-link img {
+  margin-right:3px;
+  width:16px
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .column {
+    margin-right: 0em !important;
+    width: 100%;
+  }
 }
