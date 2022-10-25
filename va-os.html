@@ -16,35 +16,53 @@
 
         <h1>Case study: VA Online Scheduling Tool</h1>
         <h2>The problem</h2>
-        <p>VA Online Scheduling Tool (VAOS) is tool Veterans use to schedule basic healthcare appointments online. The previous tool lived on a separate URL, didn't use the VA.gov design system, didn't work on a mobile phone, had unique login credentials, and most importantly, delivered a broken UX to Veterans.
+        <p>VA Online Scheduling Tool (VAOS) is a web utility Veterans use to schedule basic healthcare appointments which lived outside the VA's main website VA.gov. The previous tool didn't use the VA.gov design system, functioned poorly on a mobile phone, required unique login credentials, and most importantly, delivered a broken UX to Veterans. The Digital Modernization strategy issued from VAHQ required that VA online services be on par with their private sector equivalents.
 
         <h2>The solution</h2>
-        <p>Migrate the legacy tool onto the new VA.gov tech stack, which allowed other VA.gov pages to easily integrate the tool and use the same login credentials as the rest of the site.
+        <p>Migrate the legacy tool onto the new VA.gov tech stack, which allowed other VA.gov pages to easily integrate the tool and use the same login credentials as the rest of the site — VA.gov will be the one stop shop for all Veteran needs on the internet, and VAOS needs to be a part of it.
+
+        <h2>Design process</h2>
+        <p>Our business goal was to migrate VAOS from a bespoke website into the parent website VA.gov. First, we formed a product strategy to align VA stakeholders from the different arms of VA, which could boil down to 2 main goals: 1/ VAOS will retain all of its current functionality, but will be migrated feature-by-feature, and 2/ it must live wholistically on VA.gov (i.e. use the VA.gov tech stack, design system, etc). In order to achieve these goals, we broke our approach into phases. Phase 1: change nothing about the UX of VAOS, simply skin it with the design system and get an MVP working on VA.gov. This allowed the engineers to focus on functionality (refactoring microservices, login credentials, etc) instead of reworking the entire tool. Phase 2: Once VAOS is up and running, we can slowly start adding more functionality (e.g. Community Care appointments), and reworking the UX to meet best practices and VA.gov standards. </p>
+        <p>First, I auditted legacy VAOS user flows, grabbing low hanging fruit UX improvements. Some of these improvements would come simply by applying the design system, but many required a rework of conditional logic. As we made these design decisions, we validated their efficacy via usabilty testing, and if successful, implemented them in production. </p>
 
         <h2>My role</h2>
-        <p>My responsibilities included working with multiple stakeholders to gain alignment on project goals, including getting buy-in from different department heads inside of VA. I worked with contractors and engineers to ensure VAOS would be able to mirror its current functionality, as well as develop a roll out plan for implementation. Additonally, I was responsible for converting the legacy tool with the VA.gov design system
+        <p>My responsibilities included working with multiple stakeholders to gain alignment on project goals, including getting buy-in from different department heads inside of VA. I worked with contractors and engineers to ensure VAOS would be able to mirror its current functionality, as well as develop a roll out plan for implementation. Additonally, I was responsible for refactoring the legacy tool with the VA.gov design system, which meant crystal clear mockups in Sketch depicting every screen and error state.
+
 
 
         <div class="caption">
-            <p>Diagraming user flows</p>
+
+            <h3>Diagraming user flows</h3>
             <img src="./images/va-os-userflow-2.png" alt="Diagram of the VAOS userflows">
 
-            <p>Understanding the VAOS backend</p>
+            <h3>Understanding the VAOS backend</h3>
             <img src="./images/va-os-backend.png" alt="Diagram of the VAOS backend">
 
-            <p>Prototype of the first phase of migration</p>
+            <h3>Prototype of the first phase of migration</h3>
             <img src="./images/va-os-phase-1-prototype.png" alt="Prototype of the first phase of migration">
 
-
-            <p>Final design excepts for VAOS</p>
+            <h3>Final design excepts for VAOS</h3>
             <img src="./images/va-os-app.png" alt="Final design excepts for VAOS">
 
+            <h2>Impact</h2>
+            <p>Upon migrating onto VA.gov, the VAOS tool saw exponential growth.</p>
+            <h3 class="pt1">A one year snapshot of improvement of VAOS</h3>
+            <img src="./images/va-os-data.jpg" alt="Powerpoint slide depicting the increase in VAOS usage month over month for one year">
+        </div>
 
+        <div class="row caption">
 
+          <div class="column">
+            <h3>Before</h3>
+              <p>Users blindly selected a region to receive care.</p>
+              <img src="./images/va-os-region-before.png" alt="Legacy VAOS tool selection with a list of locations">
+          </div>
 
-
-
-
+          <div class="column">
+            <h3>After</h3>
+              <p>Giving users timely, relevant information to help navigate the complicated VA system.</p>
+              <img src="./images/va-os-region-after.png" alt="A list of regions, including distances from users location">
+          </div>
         </div>
         <a class="back-link" href="index.html"><img src="./images/left-carat.svg">All projects</a>
 
